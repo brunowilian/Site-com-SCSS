@@ -1,0 +1,13 @@
+@mixin boundaries($isAuto: true){
+    width: 90%;
+    max-width: 980px;
+
+    @if $isAuto{
+        margin: auto;
+    }
+}
+
+.Display{
+    display: flex;
+    align-items: center;
+}

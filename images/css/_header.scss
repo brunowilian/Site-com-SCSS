@@ -1,15 +1,14 @@
+@use 'funtion' as m;
+
 header {
     background-color: #7159c1;
 
     .container {
+        @extend .Display;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        width: 90%;
-        max-width: 980px;
-
-        margin: auto;
+        @include m.boundaries();
     }
 
     img {

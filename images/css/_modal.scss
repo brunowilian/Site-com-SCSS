@@ -1,9 +1,9 @@
+@use 'funtion';
 /*=============== 
 MODAL
 ==================*/
 .modal-overlay {
-  display: flex;
-  align-items: center;
+  @extend .Display;
   justify-content: center;
   position: fixed;
   top: 0;
