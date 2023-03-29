@@ -220,7 +220,6 @@ MODAL
   transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition-delay: 0.3s;
 }
-
 .modal .close-modal svg {
   width: 18px;
   height: 18px;
