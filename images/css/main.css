@@ -128,18 +128,17 @@ CARDS
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-
-.card:hover {
+.cardhover {
   transform: translateY(-7px);
 }
 
 .image {
   width: 100%;
-  padding-top: 56.25%; /* 16:9 */
+  padding-top: 56.25%;
+  /* 16:9 */
   overflow: hidden;
   position: relative;
 }
-
 .image img {
   width: 100%;
   position: absolute;
